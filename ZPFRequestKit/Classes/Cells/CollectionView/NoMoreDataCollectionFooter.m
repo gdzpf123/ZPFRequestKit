@@ -49,4 +49,9 @@
     return 40;
 }
 
++ (CGFloat)loadingMoreFooterHeight {
+    return 40.0;
+}
+
+
 @end

@@ -8,7 +8,6 @@ target 'ZPFRequestKit' do
   pod 'MJExtension'
   pod 'MJRefresh'
   pod 'AFNetworking'    
-  pod 'Masonry'
   
   
 end

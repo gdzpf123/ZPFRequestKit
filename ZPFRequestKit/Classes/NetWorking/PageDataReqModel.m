@@ -41,7 +41,7 @@
             }
         }
     }else if ([responseObj isKindOfClass:[NSArray class]]){
-        return responseObj;
+        return (NSArray *)responseObj;
     }
     
     return @[];
