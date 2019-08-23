@@ -194,7 +194,7 @@
     
     [self.reqDataArr removeAllObjects];
     
-    Class cellCls=[self preferCellClassForModel:nil];
+    Class cellCls=[self preferCellClassForModel:@""];
     if (cellCls == nil ) {
         return;
     }
